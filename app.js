@@ -5,7 +5,6 @@ let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
 // Functions
-
 function exibirTextoNaTela(tag, text) {
   let campo = document.querySelector(tag);
   campo.innerHTML = text;
